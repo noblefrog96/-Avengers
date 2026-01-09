@@ -330,6 +330,15 @@ img {
   gap: 12px;
 }
 
+.hero-visual {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.12);
+}
+
 .chip {
   margin: 0;
   width: fit-content;
@@ -438,14 +447,12 @@ img {
   padding: 14px;
 }
 
-.avatar {
+.avatar-img {
   width: 44px;
   height: 44px;
   border-radius: 16px;
-  display: grid;
-  place-items: center;
-  font-weight: 900;
-  letter-spacing: -0.02em;
+  object-fit: cover;
+  display: block;
   background: linear-gradient(135deg, rgba(124, 58, 237, 0.9), rgba(6, 182, 212, 0.7));
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 12px 22px rgba(0, 0, 0, 0.28);

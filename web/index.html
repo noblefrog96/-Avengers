@@ -8,7 +8,7 @@
       content="구조가 단순한 팀 소개/프로젝트/문의 랜딩페이지 연습용 템플릿"
     />
     <title>춘식팀 (연습용 템플릿)</title>
-    <link rel="icon" href="/favicon.svg" />
+    <link rel="icon" href="./favicon.svg" />
   </head>
   <body>
     <a class="skip-link" href="#main">본문 바로가기</a>
@@ -16,7 +16,7 @@
     <header class="site-header" data-elevate>
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="홈으로">
-          <img class="brand-mark" src="/logo.svg" alt="" width="28" height="28" />
+          <img class="brand-mark" src="./logo.svg" alt="" width="28" height="28" />
           <span class="brand-text">춘식팀</span>
         </a>
 
@@ -72,8 +72,14 @@
             </dl>
           </div>
 
-          <div class="hero-card" role="img" aria-label="브랜드 카드 이미지">
+          <div class="hero-card" role="img" aria-label="히어로 이미지 카드">
             <div class="hero-card-inner">
+              <img
+                class="hero-visual"
+                src="./images/hero.svg"
+                alt="연습용 히어로 이미지"
+                loading="lazy"
+              />
               <p class="chip">CHUNSIKTEAM</p>
               <p class="hero-card-title">Practice Landing</p>
               <p class="hero-card-desc">빠르게 만들고, 자주 고치고, 꾸준히 배웁니다.</p>
@@ -124,12 +130,12 @@
         <div class="container">
           <div class="section-head">
             <h2>멤버</h2>
-            <p>이미지 없이도 보기 좋게 카드형으로 구성했습니다.</p>
+            <p>이미지 슬롯을 만들어뒀습니다(나중에 파일만 교체하면 됨).</p>
           </div>
 
           <div class="cards four">
             <article class="person">
-              <div class="avatar" aria-hidden="true">A</div>
+              <img class="avatar-img" src="./images/member-a.svg" alt="멤버 A" loading="lazy" />
               <div>
                 <h3 class="person-name">멤버 A</h3>
                 <p class="person-role">기획 · 운영</p>
@@ -137,7 +143,7 @@
               </div>
             </article>
             <article class="person">
-              <div class="avatar" aria-hidden="true">B</div>
+              <img class="avatar-img" src="./images/member-b.svg" alt="멤버 B" loading="lazy" />
               <div>
                 <h3 class="person-name">멤버 B</h3>
                 <p class="person-role">프론트엔드</p>
@@ -145,7 +151,7 @@
               </div>
             </article>
             <article class="person">
-              <div class="avatar" aria-hidden="true">C</div>
+              <img class="avatar-img" src="./images/member-c.svg" alt="멤버 C" loading="lazy" />
               <div>
                 <h3 class="person-name">멤버 C</h3>
                 <p class="person-role">백엔드</p>
@@ -153,7 +159,7 @@
               </div>
             </article>
             <article class="person">
-              <div class="avatar" aria-hidden="true">D</div>
+              <img class="avatar-img" src="./images/member-d.svg" alt="멤버 D" loading="lazy" />
               <div>
                 <h3 class="person-name">멤버 D</h3>
                 <p class="person-role">디자인</p>
